@@ -12,6 +12,7 @@ import { FormsModule } from '@angular/forms';
 import { CanvasJSAngularChartsModule } from '@canvasjs/angular-charts';
 import { NgChartsModule } from 'ng2-charts';
 import { ErrorMessagesComponent } from 'src/app/components/error-messages/error-messages.component';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { ErrorMessagesComponent } from 'src/app/components/error-messages/error-
     NgbModule,
     CanvasJSAngularChartsModule,
     NgChartsModule,
-    NgbAlertModule
+    NgbAlertModule,
+    FontAwesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]

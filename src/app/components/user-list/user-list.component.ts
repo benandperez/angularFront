@@ -2,6 +2,8 @@ import {  Component, OnInit } from '@angular/core';
 import { Chart } from 'chart.js';
 import { GithubService } from 'src/app/Service/github.service';
 import { Router } from '@angular/router';
+import { faCoffee, faUserNinja } from '@fortawesome/free-solid-svg-icons';
+
 
 @Component({
   selector: 'app-user-list',
@@ -10,6 +12,8 @@ import { Router } from '@angular/router';
 })
 
 export class UserListComponent implements OnInit {
+  faCoffee = faCoffee;
+  faUserNinja = faUserNinja;
   items: any[] = [];
   itemsChar: any[] = [];
   searchText: string = ''; 

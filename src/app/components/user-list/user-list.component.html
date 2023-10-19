@@ -24,8 +24,8 @@
     </thead>
     <tbody>
       <tr *ngFor="let item of items" (click)="navigateToUserProfile(item)" class="pointer">
-        <td>{{ item.id }}</td>
-        <td>{{ item.login }}</td>
+        <td><fa-icon [icon]="faCoffee"></fa-icon> {{ item.id }}</td>
+        <td><fa-icon [icon]="faUserNinja"></fa-icon> {{ item.login }}</td>
         <td>{{ item.followers_url }}</td>
       </tr>
     </tbody>
