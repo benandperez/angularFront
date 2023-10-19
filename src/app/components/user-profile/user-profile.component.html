@@ -1,0 +1,44 @@
+<div *ngIf="userData">
+    <h2>Perfil de Usuario</h2>
+</div>
+<!-- Main Wrapper -->
+<div class="main-wrapper" *ngIf="userData">
+    <!-- Page Wrapper -->
+    <div class="page-wrapper">
+        <!-- Page Content -->
+        <div class="content container-fluid">
+            
+            <div class="card mb-0">
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="profile-view">
+                                <div class="profile-img-wrap">
+                                    <div class="profile-img">
+                                        <a href="#"><img alt="" src={{userData.avatar_url}}></a>
+                                    </div>
+                                </div>
+                                <div class="profile-basic">
+                                    <div class="row">
+                                        <div class="col-md-5">
+                                            <div class="profile-info-left">
+                                                <h3 class="user-name m-t-0 mb-0">{{ userData.login }}</h3>
+                                                <h6 class="text-muted">Tipo: {{ userData.type }}</h6>
+                                                <small class="text-muted">Score: {{ userData.score }}</small>
+                                                <div class="staff-id">Usuario ID : {{ userData.id }}</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /Page Content -->
+    </div>
+    <!-- /Page Wrapper -->
+</div>
+<!-- /Main Wrapper -->
+        
