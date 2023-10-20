@@ -4,6 +4,20 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Development server
 
+## Available Scripts
+
+In the project directory, you can run:
+
+### `npm install`
+
+### `npm start`
+
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
+
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
 ## Code scaffolding
